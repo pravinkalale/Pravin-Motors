@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    background-color: navajowhite;
+}
+
+header{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 18px 8%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0, 0.08);
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color: #e63946;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+nav ul li a:hover{
+    color: #e63946;
+}
+
+/* shop now Button */
+
+.shop-btn{
+    text-decoration: none;
+    background-color: #e63946;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.shop-btn:hover{
+    background-color: #c92f3b;
+}
