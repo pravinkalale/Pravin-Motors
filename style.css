@@ -71,3 +71,23 @@ nav ul li a:hover{
 .shop-btn:hover{
     background-color: #c92f3b;
 }
+
+.hero{
+    padding-top: 25px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.hero div p{
+    color: orangered;
+    font-weight: 550;
+}
+
+.hero-btn{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    border: 2px black;
+    border-width: 5px;
+}
